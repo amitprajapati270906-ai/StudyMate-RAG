@@ -22,6 +22,22 @@ The system uses **Retrieval-Augmented Generation (RAG)** to find relevant inform
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home Screen
+
+![StudyMate AI Home Screen](screenshots/home.png)
+
+### 📄 Upload & Ask Question
+
+![Upload and Question Screen](screenshots/upload.png)
+
+### 🤖 AI Answer with Sources
+
+![AI Answer Screen](screenshots/answer.png)
+
+---
+
 ## 🧠 How It Works
 
 The application follows a Retrieval-Augmented Generation (RAG) pipeline:
