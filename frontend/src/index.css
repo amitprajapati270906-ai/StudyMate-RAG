@@ -1,0 +1,162 @@
+/* ================================
+   StudyMate AI - Global CSS
+   ================================ */
+
+:root {
+  --text: #9ab5a5;
+  --text-h: #ecfdf5;
+  --bg: #061a12;
+  --border: rgba(74, 222, 128, 0.12);
+
+  --code-bg: #0a291a;
+
+  --accent: #22c55e;
+  --accent-bg: rgba(34, 197, 94, 0.1);
+  --accent-border: rgba(74, 222, 128, 0.5);
+
+  --social-bg: rgba(10, 41, 26, 0.5);
+
+  --shadow:
+    rgba(0, 0, 0, 0.3) 0 10px 15px -3px,
+    rgba(0, 0, 0, 0.2) 0 4px 6px -2px;
+
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 16px/145% var(--sans);
+  letter-spacing: 0.18px;
+
+  color: var(--text);
+
+  background: var(--bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ================================
+   Global Reset
+   ================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #061a12;
+}
+
+/* ================================
+   IMPORTANT: Full Screen Root
+   ================================ */
+
+#root {
+  width: 100%;
+  max-width: none;
+
+  min-width: 100%;
+  min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
+
+  text-align: left;
+
+  border: none;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  background: #061a12;
+}
+
+/* ================================
+   Headings
+   ================================ */
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  margin: 32px 0;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+}
+
+/* ================================
+   Paragraph
+   ================================ */
+
+p {
+  margin: 0;
+}
+
+/* ================================
+   Code
+   ================================ */
+
+code,
+.counter {
+  font-family: var(--mono);
+
+  display: inline-flex;
+
+  border-radius: 4px;
+
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+
+  padding: 4px 8px;
+
+  background: var(--code-bg);
+}
+
+/* ================================
+   Responsive
+   ================================ */
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}

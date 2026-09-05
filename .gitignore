@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Backend generated files
+backend/uploads/
+backend/audio/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
